@@ -4,3 +4,4 @@ const student = {
 };
 
 console.log(student.name)  //Shourov
+console.log(student['name'])  //Shourov
