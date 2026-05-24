@@ -3,4 +3,4 @@ const student = {
   email "show@co.com"
 };
 
-console.log(student.name)
+console.log(student.name)  //Shourov
