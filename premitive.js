@@ -16,6 +16,7 @@ let developer ={
     backend : true
   }, 
   frontend :["HTML5", "CSS3", "ES6", "TS", "TAILWIND CSS", "React.js", "Next.js", "Bootstrap" ], 
-  backend :["Node.js", "Express.js" ] 
+  backend :["Node.js", "Express.js" ], 
+  database : ["MongoDB", "PostgresSQL" ], 
   
 } 
