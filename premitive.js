@@ -7,11 +7,14 @@ console.log(typeof string) //string
 let hasCar = false, hasMarried = false ;
 
 //object
-let student ={
+let developer ={
   name : "Shourov", 
   age : 23, 
   hasCar : false, 
-  skill :{}, 
+  skill :{
+    frontend : true, 
+    backend : true
+  }, 
   frontend :[], 
   backend :[] 
   
