@@ -2,6 +2,9 @@ let string = "Shourov" ;
 let number = 1234;
 console.log(typeof string) //string
 
+//BigInt 
+let bigNumber = 111233.22335443444n
+
 
 //Boolean
 let hasCar = false, hasMarried = false ;
