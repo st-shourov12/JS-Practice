@@ -4,3 +4,8 @@ function greetings (name) {
 
 greetings(Shourov) 
 greetings(Shuvro)
+
+
+const sayHello = (name) => console.log(`Hello ${name}`)  
+
+sayHello(Shuvro) 
