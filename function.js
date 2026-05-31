@@ -9,3 +9,8 @@ greetings(Shuvro)
 const sayHello = (name) => console.log(`Hello ${name}`)  
 
 sayHello(Shuvro) 
+
+function addition (a, b) {
+  return console.log(a+b) 
+} 
+addition(7,8)
