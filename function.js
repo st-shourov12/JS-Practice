@@ -14,3 +14,5 @@ function addition (a, b) {
   return console.log(a+b) 
 } 
 addition(7,8)
+
+const add =(a, b) =>{console.log(a+b) } 
