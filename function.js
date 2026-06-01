@@ -29,4 +29,5 @@ const sub = (a, b) =>{
   a >= b? console.log(a - b) : console.log(b - a) 
 } 
 
-subtraction(7,9)
+subtraction(7,9);
+sub(7,9)
