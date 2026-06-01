@@ -16,3 +16,11 @@ function addition (a, b) {
 addition(7,8)
 
 const add =(a, b) =>{console.log(a+b) } 
+
+function subtraction (a, b) {
+  if(a >= b) {
+    return console.log(a - b) 
+  } else {
+    return console.log(b - a) 
+  } 
+} 
