@@ -24,3 +24,7 @@ function subtraction (a, b) {
     return console.log(b - a) 
   } 
 } 
+
+const sub = (a, b) =>{
+  a >= b? console.log(a - b) : console.log(b - a) 
+} 
