@@ -28,3 +28,5 @@ function subtraction (a, b) {
 const sub = (a, b) =>{
   a >= b? console.log(a - b) : console.log(b - a) 
 } 
+
+subtraction(7,9)
