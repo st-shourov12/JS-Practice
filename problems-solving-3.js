@@ -1,0 +1,84 @@
+// Day 3 — Arrays & Array Methods
+ 
+/* Problem 11: Find the Sum of an Array  [Easy]
+Description: Write a function sumArray(arr) that returns the sum of all numbers in an array.
+Example:
+Input: [1, 2, 3, 4, 5]  → Output: 15
+Hint: Use reduce() or a for loop. */
+
+const sumArray = (arr) => {
+  const res = arr.reduce((acc, cur) => 
+    acc + cur , 0
+  )
+  console.log(res);
+}
+
+ 
+ 
+ 
+ 
+/* Problem 12: Find Maximum Value in Array  [Easy]
+Description: Write a function findMax(arr) that returns the largest number in an array without using Math.max().
+Example:
+Input: [3, 1, 7, 2, 9]  → Output: 9
+Hint: Loop through and track the largest value found. */
+
+ const findMax = (arr) => {
+    const res = arr.sort((a,b) => b - a);
+    console.log(res[0]);
+ }
+
+
+ 
+ 
+ 
+ 
+/* Problem 13: Remove Duplicates from Array  [Easy]
+Description: Write a function removeDuplicates(arr) that returns a new array with duplicate values removed.
+Example:
+Input: [1, 2, 2, 3, 3, 4]  → Output: [1, 2, 3, 4]
+Hint: Use Set or filter() with indexOf(). */
+
+const removeDuplicates = (arr) => {
+    const set = new Set(arr);
+    const arr2 = [...set]
+    console.log(arr2);
+}
+
+
+ 
+ 
+ 
+ 
+ 
+/* Problem 14: Flatten a Nested Array  [Medium]
+Description: Write a function flattenArray(arr) that flattens one level of a nested array.
+Example:
+Input: [1, [2, 3], [4, 5]]  → Output: [1, 2, 3, 4, 5]
+Hint: Use flat() or reduce() with concat(). */
+
+ const flattenArray = (arr) => {
+    const res = arr.flat(1);
+    console.log(res);
+ }
+
+ 
+ 
+ 
+ 
+/* Problem 15: Chunk an Array  [Medium]
+Description: Write a function chunkArray(arr, size) that splits an array into chunks of a given size.
+Example:
+Input: [1,2,3,4,5], 2  → Output: [[1,2],[3,4],[5]]
+Hint: Use a while loop with slice(). */
+
+const chunkArray = (arr, size) => {
+    let newArray = [];
+    let i =  0;
+    while (i< arr.length) {
+        newArray.push(arr.slice(i, i + size));
+        i = i + size
+    }
+    console.log(newArray);
+    
+}
