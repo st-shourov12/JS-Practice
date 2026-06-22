@@ -119,6 +119,9 @@ const findDuplicateNames = (arr) => {
         values.push(v[0])
     }
     console.log(values);
+
+    const count = 0 ;
+    
 }
 
 findDuplicateNames([{name:'Ali'},{name:'Sara'},{name:'Ali'}])
