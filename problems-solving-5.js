@@ -16,7 +16,7 @@ Hint: Base case: factorial(0) = 1. Recursive case: n * factorial(n-1). */
     }
     console.log( multiplication);
  }
- factorial(6)
+
  
  
  
@@ -28,8 +28,21 @@ Input: 6  → Output: 8 (0,1,1,2,3,5,8...)
 Hint: Try both iterative and recursive approaches. */
 
  
- 
- 
+ const fibonacci =(n) => {
+    let a = 0 ;
+    let b = 1 ;
+    const arr = []
+    for (let i = 0; i <= n; i++) {
+        arr.push(a)
+        let sum = a + b ;
+        a = b ;
+        b = sum ; 
+        
+    }
+    console.log(arr[n]);
+    
+ }
+ fibonacci(6)
  
  
  
